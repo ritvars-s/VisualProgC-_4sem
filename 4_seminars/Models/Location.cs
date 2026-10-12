@@ -13,6 +13,12 @@ namespace _4_seminars.Models
         public string City { get; set; }
         public string State { get; set; }
         public int PostalCode { get; set; }
-
+        public Location() { }
+        public Location(string county, string city, string state, int postalCode) {
+            County = county;
+            City = city;
+            State = state;
+            PostalCode = postalCode;
+        }
     }
 }

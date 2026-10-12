@@ -18,13 +18,14 @@ namespace _4_seminars.Migrations
 
             modelBuilder.Entity("_4_seminars.Models.Car", b =>
                 {
-                    b.Property<string>("VIN")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("BaseMSRP")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CT2020")
+                    b.Property<long>("CT2020")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("CarMakeId")
@@ -49,11 +50,15 @@ namespace _4_seminars.Migrations
                     b.Property<int>("LocationId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("VIN")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("VehicleLocation")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("VIN");
+                    b.HasKey("Id");
 
                     b.HasIndex("CarMakeId");
 

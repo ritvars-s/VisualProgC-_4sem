@@ -123,3 +123,4 @@ G:\Documents\c#\4_seminars\4_seminars\bin\Debug\net8.0-windows\runtimes\osx-x64\
 G:\Documents\c#\4_seminars\4_seminars\bin\Debug\net8.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 G:\Documents\c#\4_seminars\4_seminars\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 G:\Documents\c#\4_seminars\4_seminars\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+G:\Documents\c#\4_seminars\4_seminars\obj\Debug\net8.0-windows\4_seminars.sourcelink.json

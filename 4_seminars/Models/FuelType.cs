@@ -11,5 +11,10 @@ namespace _4_seminars.Models
         public int Id {  get; set; }
         public string ElectricVehicleType { get; set; }
         public string CAFV {  get; set; }
+
+        public FuelType(string electricVehicleType, string cAFV) { 
+            ElectricVehicleType = electricVehicleType;
+            CAFV = cAFV;
+        }
     }
 }
